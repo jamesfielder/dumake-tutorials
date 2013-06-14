@@ -1,0 +1,33 @@
+network={
+        ssid="O2wireless784642"
+        key_mgmt=NONE
+        wep_key0=54FDFE08F3
+        wep_tx_keyidx=0
+        priority=5
+        auth_alg=SHARED
+}
+
+# EDUROAM network definition
+network={
+ssid="eduroam"
+key_mgmt=IEEE8021X WPA-NONE WPA-EAP
+eap=PEAP
+identity="btgm63@durham.ac.uk"
+password="Htg42da1342"
+phase2="auth=MSCHAPV2"
+priority=2
+auth_alg=OPEN
+
+}
+
+#DU Wireless
+network={
+ssid="DU Wireless"
+proto=RSN
+key_mgmt=WPA-EAP
+pairwise=TKIP
+auth_alg=OPEN
+eap=PEAP
+identity="btgm63"
+password="Htg42da1342"
+}

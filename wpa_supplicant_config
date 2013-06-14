@@ -13,7 +13,7 @@ ssid="eduroam"
 key_mgmt=IEEE8021X WPA-NONE WPA-EAP
 eap=PEAP
 identity="btgm63@durham.ac.uk"
-password="Htg42da1342"
+password="password"
 phase2="auth=MSCHAPV2"
 priority=2
 auth_alg=OPEN
@@ -29,5 +29,5 @@ pairwise=TKIP
 auth_alg=OPEN
 eap=PEAP
 identity="btgm63"
-password="Htg42da1342"
+password="password"
 }

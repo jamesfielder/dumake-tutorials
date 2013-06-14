@@ -18,3 +18,14 @@ This should look like this
 You should now be given a screen with local files in one column and files on the Pi in the other.
 
 ![columns](https://raw.github.com/jamesfielder/dumake-tutorials/master/img/winscp2.png)
+
+From here you can simply drag files between the two columns to move them between the computers.
+
+On Mac/Linux
+------------
+
+The best way to use scp on mac or linux is to use the command line version of the tool. Open a terminal and run
+  scp /path/to/file/hi.py pi@ip:~
+to push files to the RPi and
+  scp pi@ip:~/hi.py ~
+to pull files from the RPi to your home directory.

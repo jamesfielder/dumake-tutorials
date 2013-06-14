@@ -9,4 +9,4 @@ On windows
 + Username: pi
 + Password: Raspberry
 
-You should now be given a  
+You should now be given a screen with local files in one column and files on the Pi in the other. 

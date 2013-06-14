@@ -15,4 +15,6 @@ This should look like this
 
 ![Scp on windows](https://raw.github.com/jamesfielder/dumake-tutorials/master/img/winscp1.png)
 
-You should now be given a screen with local files in one column and files on the Pi in the other. 
+You should now be given a screen with local files in one column and files on the Pi in the other.
+
+![columns](https://raw.github.com/jamesfielder/dumake-tutorials/master/img/winscp2.png)

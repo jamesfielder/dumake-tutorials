@@ -25,7 +25,11 @@ On Mac/Linux
 ------------
 
 The best way to use scp on mac or linux is to use the command line version of the tool. Open a terminal and run
+
   scp /path/to/file/hi.py pi@ip:~
+  
 to push files to the RPi and
+
   scp pi@ip:~/hi.py ~
+  
 to pull files from the RPi to your home directory.

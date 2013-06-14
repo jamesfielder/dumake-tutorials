@@ -4,10 +4,11 @@
 #	Compiles *.markdown -> *.html and automatically deletes old before compiling
 #
 
-SRCS = $(wildcard *.markdown)
-HTML = $(patsubst %.markdown,%.html,$(SRCS))
+CPP_FILES = $(wildcard *.md)
+OBJ_FILES = $(patsubst %.md,%.html,$(CPP_FILES))
 
-%.html: %.markdown
+
+%.html: %.md
 	pandoc -o $@ $<
 
 all: $(OBJ_FILES) 
